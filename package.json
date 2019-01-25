@@ -27,7 +27,7 @@
     "url": "https://github.com/iamruhul/mutable-state/issues"
   },
   "homepage": "https://github.com/iamruhul/mutable-state#readme",
-  "dependencies": {
+  "peerDependencies": {
     "react": "^16.8.0-alpha.1"
   }
 }
