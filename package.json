@@ -22,7 +22,7 @@
     "mutable-react-state"
   ],
   "author": "@iamruhul",
-  "license": "MIT OR Apache-2.0)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/iamruhul/mutable-state/issues"
   },
