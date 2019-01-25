@@ -3,9 +3,9 @@
 [![npm (scoped)](https://img.shields.io/bundlephobia/min/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
 
-### A small library that let's you use reactjs useState hook like a mutable object
+A small library that let's you use reactjs useState hook like a mutable object
 
-## Requerments
+## Requirements
 
 You need react hooks to use this library which is not available in the current stable build 16.7.0. You may need to install the alpha version of reactjs and reactDOM
 
