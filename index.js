@@ -66,7 +66,7 @@ function createState(data, key, final = {}) {
     for (const i in data[key]) createState(data[key], i, final[newKey]);
 }
 
-function mutableState(init, final = {}) {
+module.exports = function mutableState(init, final = {}) {
   Object.keys(init).forEach(key => {
     // add getters and setters to all the properties
     createState(init, key, final);
@@ -74,5 +74,3 @@ function mutableState(init, final = {}) {
 
   return final;
 }
-
-module.exports = mutableState;
