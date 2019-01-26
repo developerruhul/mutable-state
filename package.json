@@ -1,6 +1,6 @@
 {
   "name": "mutable-state",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A tiny wrapper that let's you use `reactjs useState hook` like a mutable object",
   "main": "index.js",
   "scripts": {
