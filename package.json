@@ -13,6 +13,8 @@
   "keywords": [
     "reactjs",
     "useState",
+    "mutable",
+    "immutable",
     "state-management",
     "react-state-management",
     "wrapper",
