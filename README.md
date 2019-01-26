@@ -1,7 +1,8 @@
-# useMutableState
+# [Mutable State](https://github.com/iamruhul/mutable-state)
 
 [![npm (scoped)](https://img.shields.io/bundlephobia/min/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
+[![npm version](https://img.shields.io/npm/v/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
 
 A small library that let's you use reactjs useState hook like a mutable object
 
