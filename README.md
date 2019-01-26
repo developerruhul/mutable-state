@@ -1,4 +1,4 @@
-# mutableState
+# useMutableState
 
 [![npm (scoped)](https://img.shields.io/bundlephobia/min/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
 [![npm bundle size (minified)](https://img.shields.io/bundlephobia/minzip/mutable-state.svg)](https://www.npmjs.com/package/mutable-state)
@@ -23,11 +23,11 @@ $ yarn add mutable-state
 
 ```jsx
 import React from "react";
-import mutableState from "mutable-state";
+import useMutableState from "mutable-state";
 
 export default function() {
   // just pass in the state
-  let state = mutableState({
+  let state = useMutableState({
     shoe: {
       count: 0,
       alsoArray: [["name", "ruhul"], ["multiDimensional", true]],
@@ -56,7 +56,7 @@ export default function() {
 ### **NOTCE :** Using ES6+ destructuring you can only `get` the value, you can't `set` it, as this is the standard behaviour.
 
 ```js
-const { size } = mutableState({ size: 0 });
+const { size } = useMutableState({ size: 0 });
 // YOU CAN DO THIS
 size; //--> 0
 
@@ -64,7 +64,7 @@ size; //--> 0
 size = 2; // NOPE .... THE STATE ISN'T UPDATED BCZ DESTRUCTURING ONLY COPIES THE `VALUE` NOT THE `SETTER`
 
 // BUT YOU CAN DO THIS
-const { shoe } = mutableState({
+const { shoe } = useMutableState({
   shoe: {
     size: 0
   }
