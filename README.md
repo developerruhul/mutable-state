@@ -54,12 +54,12 @@ export default function() {
 }
 ```
 
-### **NOTCE :** Using ES6+ destructuring you can only `get` the value, you can't `set` it, as this is the standard behaviour. And you can't use any kind of delete method for now.. :( it sucks I know.. but I am working on it
+### **NOTCE :** Using ES6+ destructuring you can only `get` the value, you can't `set` it, as this is the standard behaviour.
 
 ```js
 const { size } = useMutableState({ size: 0 });
 // YOU CAN DO THIS
-size; //--> 0
+size; //=> 0
 
 // BUT NOT THIS ->
 size = 2; // NOPE .... THE STATE ISN'T UPDATED BCZ DESTRUCTURING ONLY COPIES THE `VALUE` NOT THE `SETTER`
@@ -74,12 +74,7 @@ const { shoe } = useMutableState({
 shoe.size = 12; // YUP
 
 // SAD BUT THAT'S HOW IT'S IMPLEMENTED IN ALL THE BROWSERS
-
-
-
-// DELETING DOESN'T WORK :(
-
-delete shoe.size; // doesn't work .. sorry ..  I am working on it.. if u know how to make it work plz send a *PR*
 ```
 
 #### Please ⭐ the project and share it so people can benefit from this
+https://github.com/iamruhul/mutable-state

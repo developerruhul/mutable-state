@@ -31,5 +31,8 @@
   "homepage": "https://github.com/iamruhul/mutable-state#readme",
   "peerDependencies": {
     "react": "^16.8.0-alpha.1"
+  },
+  "dependencies": {
+    "observable-slim": "0.1.5"
   }
 }
